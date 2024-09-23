@@ -1,0 +1,289 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  height: 100%;
+  padding-left: 10%;
+  text-align: center;
+}
+
+.navi {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#heroimage img {
+  display: relative;
+  width: 100%;
+  height: 400px;
+  flex-shrink: 2;
+
+  @media (max-width: 650px) {
+    width: 100%;
+    flex-shrink: 2;
+  }
+}
+
+.top-admin {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -8%;
+  margin-bottom: 4%;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 650px) {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+    text-align: center;
+  }
+}
+
+#luisimage {
+  width: 100%;
+
+  margin-left: 10%;
+  padding-top: -10%;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 650px) {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20%;
+
+    flex-shrink: 3;
+    flex-wrap: wrap;
+  }
+}
+
+#luisimage img {
+  width: 70%;
+
+  margin-left: 10%;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 650px) {
+    padding-left: 4%;
+    width: 40%;
+
+    align-items: flex-start;
+    align-self: flex-start;
+    flex-shrink: 1;
+  }
+}
+
+.rowtop {
+  width: 100%;
+}
+
+.row-two {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: bisque;
+  padding: 10%;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+
+  @media (max-width: 650px) {
+    flex-wrap: wrap;
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+  }
+}
+
+.container {
+  margin: 4%;
+
+  @media (max-width: 650px) {
+    margin-bottom: 2%;
+    width: 90%;
+  }
+}
+
+.row-two .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  flex-shrink: 1;
+  margin-top: -10%;
+  margin-bottom: -10%;
+
+  @media (max-width: 650px) {
+    margin-bottom: 2%;
+    width: 100%;
+  }
+}
+
+.row-two-right {
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: 650px) {
+    margin-bottom: 2%;
+    width: 100%;
+  }
+}
+
+.icons {
+  display: flex;
+  width: 30%;
+  font-size: 2rem;
+  justify-content: space-between;
+  margin-right: 1%;
+  align-items: center;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 650px) {
+    width: 120%;
+    flex-wrap: wrap;
+  }
+}
+
+.iconstwo img {
+  display: flex;
+  width: 10%;
+  height: 100%;
+  font-size: 2rem;
+  margin-top: -5%;
+  justify-content: space-between;
+  margin-right: 1%;
+  align-items: center;
+
+  @media (max-width: 1200px) {
+    width: 20%;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 650px) {
+    width: 10%;
+    flex-wrap: wrap;
+  }
+}
+
+.textitem {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.section1 .box1 {
+  display: flex;
+  justify-content: flex-start;
+  height: 20%;
+  flex-wrap: wrap;
+
+  @media (max-width: 1200px) {
+    width: 50%;
+  }
+
+  @media (max-width: 650px) {
+    width: 120%;
+    text-align: left;
+    padding-right: 48%;
+  }
+}
+
+.bottomcharts {
+  display: flex;
+  justify-items: center;
+  text-align: left;
+
+  @media (max-width: 650px) {
+    display: flex;
+    direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.bottomcharts .bottom-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 10%;
+
+  @media (max-width: 650px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+  }
+}
+
+.bottomcharts .bottom-two {
+  width: 100%;
+  align-self: flex-start;
+
+  @media (max-width: 650px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+  }
+
+  width: 100%;
+  align-self: center;
+  justify-content: flex-start;
+  padding-left: 10%;
+
+  @media max-width {
+    display: flex;
+    justify-content: center;
+
+    padding: 0;
+  }
+}
+
+.image-info {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+
+  @media (max-width: 650px) {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+#foot li a {
+  color: white; 
+  text-align: center;
+}
+
+.ulitems {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.1%;
+  
+}
+
+.ulitems .navbar .nav .nav-item {
+  text-align: center;
+  justify-content: center;
+}
